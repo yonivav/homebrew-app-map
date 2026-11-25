@@ -1,8 +1,8 @@
 class AppMap < Formula
   desc "Clickable UML map of a mobile app's code, kept current by your AI coding agent"
   homepage "https://github.com/yonivav/app-map"
-  url "https://github.com/yonivav/app-map/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "526cb3c6646cdb2d1fc42ba08c1725e83950cad8122247e81c3544834a243547"
+  url "https://github.com/yonivav/app-map/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "35fb8f2af23c53271a87433d1f3373eb6af80960cfc066ebd507e6b2bc9d9a64"
   license "MIT"
   head "https://github.com/yonivav/app-map.git", branch: "main"
 
