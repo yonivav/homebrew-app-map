@@ -16,7 +16,7 @@ class AppMap < Formula
       #!/bin/bash
       # app-map: `app-map install [...]` adds the skill to your agents; every other command
       # goes to the skill's own CLI (build, verify, changes, sync, shots, crop…).
-      export PATH="#{Formula["python@3.13"].opt_libexec}/bin:$PATH"
+      export PATH="#{formula_opt_libexec("python@3.13")}/bin:$PATH"
       if [ "${1:-}" = "install" ]; then
         shift
         exec "#{opt_libexec}/install.sh" "$@"
