@@ -9,7 +9,7 @@ class AppMap < Formula
   depends_on "python@3.13"
 
   def install
-    libexec.install "install.sh", "skills", "LICENSE", "README.md", "CHANGELOG.md"
+    libexec.install "install.sh", "skills", "LICENSE"
     # The installer copies or links the skill from where it sits; through opt_libexec the
     # links (`app-map install --link`) keep working after `brew upgrade`.
     (bin/"app-map").write <<~SH
